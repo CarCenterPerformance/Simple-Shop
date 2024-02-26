@@ -1,4 +1,3 @@
-local ESX <const> = exports["es_extended"]:getSharedObject()
 local _menuPool <const> = NativeUI.CreatePool()
 local isNearShop = false
 
