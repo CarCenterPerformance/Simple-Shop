@@ -1,0 +1,19 @@
+{
+    "Lua.diagnostics.globals": [
+        "NativeUI",
+        "exports",
+        "PlayerPedId",
+        "vector3",
+        "SetPedFleeAttributes",
+        "SetPedDiesWhenInjured",
+        "SetBlockingOfNonTemporaryEvents",
+        "IsControlJustReleased",
+        "TriggerServerEvent",
+        "RegisterServerEvent",
+        "source",
+        "TriggerClientEvent"
+    ],
+    "Lua.diagnostics.disable": [
+        "unused-function"
+    ]
+}
