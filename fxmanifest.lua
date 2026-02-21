@@ -4,14 +4,14 @@ author 'CCP (CarCenterPerformance)'
 description 'A Simple NativeUI Shop'
 version '1.0.0'
 
+shared_scripts {
+    'config.lua'
+}
 client_scripts {
     '@NativeUI/NativeUI.lua',
-    'config.lua',
-    'client.lua'
+    'client/*.lua'
 }
 
 server_scripts {
-
-    'server.lua'
-
+    'server/*.lua'
 }
